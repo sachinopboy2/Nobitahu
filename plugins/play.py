@@ -1,5 +1,5 @@
 from pyrogram import filters
-from pytgcalls.types import AudioPiped
+from pytgcalls import AudioPiped
 from main import app, call_py
 from plugins.youtube import get_yt_stream # ensure youtube.py exists
 
